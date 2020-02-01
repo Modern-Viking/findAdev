@@ -3,7 +3,7 @@ const fs = require("fs");
 const util = require("util");
 const axios = require("axios");
 const puppeteer = require("puppeteer");
-const generateHTML = require("./generateHTML");
+const generateHTML = require("./generate");
 const writeFileAsync = util.promisify(fs.writeFile);
 
 let profile;
@@ -71,7 +71,7 @@ async function makePDF() {
       deviceScaleFactor: 2
     });
     await page.goto(
-      "file://C:/Users/degea/bootcamp/homework_9/Develop/test.html",
+      "file://C:/Users/thoma/bootcamp/homework/findAdev/js/test.html",
       {
         waitUntil: "networkidle2"
       }
