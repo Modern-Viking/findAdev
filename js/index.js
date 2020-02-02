@@ -23,7 +23,7 @@ async function init() {
 
     const createHtml = generateHTML(data);
     writeFileAsync("test.html", createHtml).then(function() {
-      console.log("Successfully wrote to test.html file");
+      console.log("Successfully wrote html file");
     });
     makePDF();
   } catch (err) {
@@ -71,7 +71,7 @@ async function makePDF() {
       deviceScaleFactor: 2
     });
     await page.goto(
-      "file://C:/Users/thoma/bootcamp/homework/findAdev/js/test.html",
+      "file://C:/Users/thoma/bootcamp/homework/findAdev/js/initial.html",
       {
         waitUntil: "networkidle2"
       }
