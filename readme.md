@@ -3,7 +3,7 @@
 This application is a Javascript Quiz that will test your knowledge of basic JS and has the option to save your highscores to your local machine.
 
 ### Example of Working Application
-
+- [animation](https://github.com/Modern-Viking/findAdev/blob/master/assets/useExample.gif?raw=true)
 
 ## Instructions
 Install the needed npm packages using npm install and then run app through node.  Follow the prompts and it will generate a pdf file in the current directory
