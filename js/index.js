@@ -22,7 +22,7 @@ async function init() {
     profile = username;
 
     const createHtml = generateHTML(data);
-    writeFileAsync("test.html", createHtml).then(function() {
+    writeFileAsync("initial.html", createHtml).then(function() {
       console.log("Successfully wrote html file");
     });
     makePDF();
