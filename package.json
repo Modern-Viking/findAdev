@@ -1,0 +1,20 @@
+{
+    "name": "findAdev",
+    "version": "1.0.0",
+    "description": "Github Profile Creator",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Nick Thomas",
+    "license": "MIT",
+    "dependencies": {
+      "axios": "^0.19.2",
+      "electron-html-to": "^2.6.0",
+      "fs": "0.0.1-security",
+      "inquirer": "^7.0.3",
+      "pdf-puppeteer": "^1.1.9",
+      "puppeteer": "^2.0.0",
+      "util": "^0.12.1"
+    }
+  }
