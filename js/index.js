@@ -71,7 +71,9 @@ async function makePDF() {
       deviceScaleFactor: 2
     });
     await page.goto(
-      "file://C:/Users/thoma/bootcamp/homework/findAdev/js/initial.html",
+      "file:" + __dirname,
+      // "file://C:/Users/thoma/bootcamp/homework/findAdev/js/initial.html",
+      console.log(__dirname),
       {
         waitUntil: "networkidle2"
       }
