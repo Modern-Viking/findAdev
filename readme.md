@@ -1,6 +1,6 @@
 # Find A Dev
 
-This application is a Javascript Quiz that will test your knowledge of basic JS and has the option to save your highscores to your local machine.
+This application is a terminal based pdf creater for github profiles.  Built in Javascript it uses axios and inquirer to determine parameters from the user and then uses puppeteer to convert the api information to a readable pdf.
 
 ### Example of Working Application
 - [animation](https://github.com/Modern-Viking/findAdev/blob/master/assets/useExample.gif?raw=true)
